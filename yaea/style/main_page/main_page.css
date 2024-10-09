@@ -1,4 +1,3 @@
-game_engines_logos {
-    width: 10%;
-    height: 10%;
+.grid-container {
+    display: grid;
 }
