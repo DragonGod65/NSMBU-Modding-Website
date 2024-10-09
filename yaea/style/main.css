@@ -16,3 +16,7 @@ p {
     display: grid;
     gap: 50px;
 }
+
+game_engines_logos {
+    size: 10%;
+}
