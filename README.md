@@ -1,4 +1,5 @@
 # WEBSITES
-## Game Dev Site
-- Small Project,
-- Pure CSS & HTML
+- Some Websites for School
+
+## Content
+- Game Dev Site
