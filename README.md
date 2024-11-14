@@ -1,5 +1,6 @@
 # WEBSITES
-- Some Websites for School
+- A collection of Websites made for School
 
 ## Content
-- Game Dev Site
+- Rewamped Website for the Super Mario Evolution Mod
+- 
