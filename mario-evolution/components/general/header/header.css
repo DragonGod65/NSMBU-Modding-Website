@@ -10,6 +10,7 @@
 }
 .headerNav ul{
     display: flex;
+    align-content: center;
     justify-content: center;
     list-style-type: none;
 
@@ -22,14 +23,34 @@
     transition: 0.5s;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
+    
     font-weight: 600;
     font-style: normal;
     font-variation-settings: "slnt" 0;
 
 }
-.headerNav ul li a:hover{
-    opacity: 1;
+.headerNav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+.HsocialIcons{
+    display: flex;
+    justify-content: right;
+}
+
+.HsocialIcons a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.HsocialIcons a i{
+    font-size: 2em;
+    color: black;
+
+}
+
+/* Hover affect on social media icon */
 
 
 @media (max-width: 700px){
@@ -40,5 +61,9 @@
         width:100%;
         text-align: center;
         margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
     }
 }
