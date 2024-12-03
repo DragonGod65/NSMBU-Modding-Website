@@ -1,4 +1,2 @@
-# WEBSITES
-- Some Websites for School
-
-## Content
+# Super Mario Evolution Website
+A Website rewamp of the Super Mario Evolution Mod
