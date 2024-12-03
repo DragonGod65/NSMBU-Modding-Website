@@ -1,7 +1,13 @@
 
 .info-text {
     text-align: center;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
 }
+
 .informationI-flexbox {
     display: flex;
     flex-direction: row;
@@ -30,6 +36,6 @@
 }
 
 .informationI-flexbox .video .frame .iframe{
-    width: 720
-    height: auto 
+    width: 720;
+    height: auto; 
 }

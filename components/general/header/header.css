@@ -34,25 +34,32 @@
     padding-right: 20px;
 }
 
-.HsocialIcons{
-    display: flex;
-    justify-content: right;
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    animation: float 5s ease-in-out infinite;
 }
 
-.HsocialIcons a{
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
-.HsocialIcons a i{
-    font-size: 2em;
-    color: black;
-
+@keyframes float {
+    0% {
+        transform: translate(0, 5px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, 5px);
+    }
 }
 
 /* Hover affect on social media icon */
-
-
 @media (max-width: 700px){
     .headerNav ul{
         flex-direction: column;
@@ -61,9 +68,5 @@
         width:100%;
         text-align: center;
         margin: 10px;
-    }
-    .socialIcons a{
-        padding: 8px;
-        margin: 4px;
     }
 }
