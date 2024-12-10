@@ -8,11 +8,6 @@
     --secondary-stripe-rgb: 240 240 240;
   }
   
-  body {
-    /*background-color: black;
-    cursor: none;
-     overflow: hidden; */
-  }
   
   * {
     box-sizing: border-box;

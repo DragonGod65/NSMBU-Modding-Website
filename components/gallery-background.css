@@ -1,0 +1,16 @@
+.gallery_background{
+    --padding: 16px;
+    --angle-height: 75px;
+    background-image: url(../assets/img/pattern-logos.png), linear-gradient(180deg, rgb(113, 118, 242)  16%, rgb(202, 92, 254) 76%);
+    position: relative;
+    overflow: hidden;
+    padding-bottom: var(--padding);
+}
+
+
+@media only screen and (min-width: 40em) {
+    .home-header-module--Header {
+        --angle-height: 150px;
+    }
+}
+

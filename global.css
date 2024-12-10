@@ -1,0 +1,84 @@
+:root {
+    --base-radius: 8px;
+    --base-radius-short: 6px;
+    --base-space: 8px;
+    
+    --ease-in-out: cubic-bezier(0.62,0,0.33,0.99);
+    --ease-in: cubic-bezier(0.89,0.02,0.81,0.71);
+    --ease-back-out: cubic-bezier(0.64,0.01,0.3,1.41);
+    --ease-back-in-out: cubic-bezier(0.77,-0.51,0.3,1.41);
+
+    --font-main: "Catamaran", sans-serif;
+    --font-base: 13;
+    --font-bold: 800;
+    --font-black: 900;
+    --font-regular: 400;
+
+    --color-black: #070707;
+    --color-blue: #0058bc;
+    --color-grey: #5a5a5a;
+    --color-grey-2: #d8d8d8;
+    --color-dark-grey: #302f2f;
+    --color-light-grey: #f0f0f0;
+    --color-red: #e70112;
+    --color-white: #fff;
+    --color-yellow: #ffdf02;
+    --color-focus-yellow: #ffd324;
+    --mario-red: #e60012;
+    --gradient-blue-purple: linear-gradient(0deg, #bc00b7, #23b2ff);
+    --gradient-blue-purple-horiz: linear-gradient(90deg, #bc00b7, #23b2ff);
+    --gradient-dark-red: linear-gradient(0deg, #b20722, var(--color-red));
+    --gradient-light-blue: linear-gradient(90deg, #def5ff, #8ec9e1);
+    --gradient-lime: linear-gradient(223deg, #00abbc, #3fe049);
+    --gradient-pink: linear-gradient(0deg, #ce0036, transparent);
+    --gradient-red: linear-gradient(0deg, #d82129, var(--mario-red));
+    --gradient-yellow: linear-gradient(180deg, var(--color-yellow) 29%, #ffb500 84%);
+    --gradient-blue-lime: linear-gradient(225deg, #80ec87, #6df1c7 51%, #37cedd);
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-bold);
+    line-height: 1.05;
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 5px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, 5px);
+    }
+}
