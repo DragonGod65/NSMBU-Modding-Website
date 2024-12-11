@@ -1,4 +1,8 @@
 :root {
+
+    --evolution-pink-rgb: 202, 92, 254;
+    --evolution-blue-rgb: 113, 118, 242;
+    
     --base-radius: 8px;
     --base-radius-short: 6px;
     --base-space: 8px;
