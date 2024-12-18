@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import GalleryModule from '../components/home/gallery-module.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body id="star-container">
+		<Header />
+		<div id="star-pattern">
+			<div id="overlay">
+				<main>
+					<img class="banner" src="/sme_banner.png" alt="SME Banner">
+					<GalleryModule></GalleryModule>
+				</main>
+			</div>
+		</div>
+		<Footer />
+	</body>
+	<style>
+	</style>
+</html>
