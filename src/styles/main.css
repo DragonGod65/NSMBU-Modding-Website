@@ -1,0 +1,27 @@
+
+#star-container {
+  background: radial-gradient(rgb(var(--evolution-pink-rgb)), rgb(var(--evolution-blue-rgb)));
+}
+  
+#star-pattern {
+    background-image: url("/img/star_pattern.svg");
+    background-size: 10%;  
+    z-index: 1;
+    height: 200%;
+    width: 100%;
+    min-width: 1200px;
+    animation: pan 180s linear infinite;
+    will-change: background-position;
+}
+  
+#overlay {
+  background: radial-gradient(rgb(var(--evolution-pink-rgb)), rgb(var(--evolution-blue-rgb)));
+  background: radial-gradient(circle, transparent 0%, rgb(var(--evolution-blue-rgb)));
+  opacity: 1;
+  z-index: 2;
+}
+  
+  
+  
+  
+  

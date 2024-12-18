@@ -1,0 +1,15 @@
+.bouncy-text{
+    position: relative;
+    font-size: large;
+    text-align: center;
+}
+.bouncy-text span{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: 1s;
+    animation: bounce 3s infinite;
+    animation-delay: calc(.1s *var(--i));
+}

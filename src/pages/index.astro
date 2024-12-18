@@ -1,0 +1,37 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+import InfoTable from '../components/home/InfoTable.astro';
+import GalleryGrid from '../components/home/GalleryGrid.astro';
+import VideoModule from '../components/home/VideoModule.astro';
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import '../styles/animations.css';
+import '../styles/patterns.css';
+import '../styles/main.css'
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body id="star-container">
+		<Header />
+		<div id="star-pattern">
+			<div id="overlay">
+				<main>
+					<img class="banner" src="/sme_banner.png" alt="SME Banner">
+					<VideoModule></VideoModule>
+					<InfoTable></InfoTable>
+					<GalleryGrid></GalleryGrid>
+				</main>
+			</div>
+		</div>
+		<Footer />
+	</body>
+	<style>
+	</style>
+</html>
