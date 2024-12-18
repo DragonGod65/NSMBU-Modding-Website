@@ -24,7 +24,7 @@
     overflow: hidden;
 }
 
-.navigation-module--Navigation__anchor:hover, .navigation-module--Navigation__anchor[aria-current=page] {
+.navigation-module--Navigation__anchor:hover{
     border-color: var(--color-white);
 }
 

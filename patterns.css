@@ -1,3 +1,8 @@
-.pattern--hashes {
+.pattern--hashes-gray {
     background-image: repeating-linear-gradient(-45deg, #302f2f, #302f2f 6px, #2a2929 0, #2a2929 12px);
+}
+
+
+.pattern--hashes {
+    background-image: repeating-linear-gradient(-45deg, #fafafa, #fafafa 6px, #ffffff 0, #ffffff 12px);
 }

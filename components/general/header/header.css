@@ -15,7 +15,7 @@
     content: "";
     -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
-    background-color: var(--color-red);
+    background-color: rgb(var(--evolution-blue-rgb));
     height: var(--angle-height);
     position: absolute;
     bottom: 0;

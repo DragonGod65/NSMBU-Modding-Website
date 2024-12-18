@@ -1,7 +1,7 @@
 .gallery_background{
     --padding: 16px;
     --angle-height: 75px;
-    background-image: url(../assets/img/pattern-logos.png), linear-gradient(180deg, rgb(113, 118, 242)  16%, rgb(202, 92, 254) 76%);
+    background-image: url(../assets/img/pattern-logos.png), linear-gradient(180deg, rgb(var(--evolution-blue-rgb))  16%, rgb(var(--evolution-pink-rgb)) 76%);
     position: relative;
     overflow: hidden;
     padding-bottom: var(--padding);
