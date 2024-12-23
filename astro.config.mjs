@@ -12,5 +12,12 @@ import vue from '@astrojs/vue';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://example.com',
-    integrations: [mdx(), sitemap(), tailwind(), react(), vue()],
+    integrations: [
+        mdx(),
+        sitemap(), 
+        tailwind({
+            applyBaseStyles: false,
+        }), 
+        react(), 
+        vue()],
 });

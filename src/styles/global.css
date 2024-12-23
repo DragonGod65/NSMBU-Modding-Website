@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
 	--evolution-pink-rgb: 202, 92, 254;
     --evolution-blue-rgb: 113, 118, 242;
@@ -148,4 +151,10 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+@layer base {
+  :root {
+		--radius: 0.5rem;
+	}
 }
